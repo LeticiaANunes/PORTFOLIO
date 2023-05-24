@@ -1,0 +1,3 @@
+Meu portfólio
+
+Durante a criação do projeto procurei aplicar os conceitos estudados no curso. Primeiramente separei uma pasta html e outra css. Na primeira estruturei os códigos, coloquei o corpo e o que cada seção iria trabalhar. Assim fiz um resumo de quem sou, hobbies e contato. Para fazer o formulário, procurei em sites e vídeo-aula para montar o elemento ali disposto. Na pasta do css, inclui cores e tamanhos que fui testando ao longo da semana. Procurei cores neutras seguindo o conceito da psicologia das cores que explica que determinadas cores proporcionam um tom mais clean ao site. 
