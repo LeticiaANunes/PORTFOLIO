@@ -1,121 +1,141 @@
-/* Cabeçalho */
+/* Estilos gerais */
 
-/* Atribuindo estilo ao menu principal */
+body {
+  background-image: url("../fotos/blue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Estilos do cabeçalho */
+
 header h1 {
-    font-family: 'Arial', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  /* Barra de navegação */
-  header nav {
-    background-color: #f8f8f8;
-    padding: 20px;
-  }
-  
-  /* Lista de navegação */
-  header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  header nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  header nav ul li a {
-    text-decoration: none;
-    color: #555;
-    font-size: 18px;
-    transition: color 0.3s ease;
-  }
-  
-  header nav ul li a:hover {
-    color: #8c6b9b;
-  }
-  
-  
-  /* Estilo da seção "Quem sou eu" */
-  #resumo {
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-bottom: 30px;
-  }
-  
-  #resumo h2 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  #resumo p {
-    color: #555;
-    font-size: 16px;
-  }
-  
-  
-  /* Estilo da seção "Hobbies e Interesses" */
-  #hobbies {
-    background-color: #f8f8f8;
-    padding: 20px;
-    margin-bottom: 30px;
-  }
-  
-  #hobbies h2 {
-    color: #555;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  #hobbies p {
-    color: #777;
-    font-size: 16px;
-  }
-  
-  
-  /* Estilo do formulário de contato */
-  #contato {
-    background-color: #f4f5f7;
-    padding: 20px;
-    margin-bottom: 30px;
-  }
-  
-  #contato h3 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  #contato form {
-    /* Estilos do formulário de contato */
-  }
-  
-  #contato input[type="text"],
-  #contato input[type="email"],
-  #contato textarea {
-    /* Estilos dos campos de texto do formulário de contato */
-  }
-  
-  #contato input[type="submit"] {
-    /* Estilos do botão de envio do formulário de contato */
-  }
-  
-  
-  /* Estilo do rodapé */
-  footer {
-    background-color: #f8f8f8;
-    padding: 20px;
-  }
-  
-  footer p {
-    color: #555;
-    font-size: 16px;
-  }
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos da barra de navegação */
+
+header nav {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+/* Estilos da lista de navegação */
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #8c6b9b;
+}
+
+/* Estilos da seção "Quem sou eu" */
+
+.resumo {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.resumo h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.resumo p {
+  color: #555;
+  font-size: 16px;
+}
+
+.resumo img.profile-image {
+  width: 300px;
+  height: auto;
+}
+
+/* Estilos da seção "Hobbies e Interesses" */
+
+.hobbies {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.hobbies h2 {
+  color: #555;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hobbies p {
+  color: #777;
+  font-size: 16px;
+}
+
+.hobbies img.hobbies {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos do formulário de contato */
+
+.contato {
+  background-color: #f4f5f7;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.contato h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contato form {
+  /* Estilos do formulário de contato */
+}
+
+.contato input[type="text"],
+.contato input[type="email"],
+.contato textarea {
+  /* Estilos dos campos de texto do formulário de contato */
+}
+
+.contato input[type="submit"] {
+  /* Estilos do botão de envio do formulário de contato */
+}
+
+/* Estilos do rodapé */
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+footer p {
+  color: #555;
+  font-size: 16px;
+}
